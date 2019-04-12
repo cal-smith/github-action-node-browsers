@@ -1,2 +1,2 @@
-# github-action-node-browsers
-GitHub action for running node with headless browsers
+# github-action-npm-browsers
+GitHub action for running npm commands with headless browsers
