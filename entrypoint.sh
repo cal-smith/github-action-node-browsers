@@ -5,8 +5,9 @@ set -e
 # start our virtual framebuffer
 Xvfb :99 -ac &
 
-export CHROME_BIN=/usr/bin/chromium-browser
-export CHROME_PATH=/usr/lib/chromium/
+alias chrome=chromium
+
+which chromium
 
 # run chrome in headless mode
 chromium --headless --disable-gpu --no-sandbox --remote-debugging-port=9222 http://localhost &
