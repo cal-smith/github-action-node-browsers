@@ -1,4 +1,4 @@
-FROM node:10-alpine
+FROM node:10-jessie-slim
 
 LABEL repository="https://github.com/cal-smith/github-action-node-browsers"
 LABEL maintainer="cal-smith"
